@@ -10,7 +10,8 @@
 <!-- lets start -->
 <hr>
 <a href="index.html">Home</a> |
-<a href="contact.html">Contact</a>
+<a href="contact.html">Contact</a> |
+<a href="Gallery.html">Gallery</a>
 <hr>
 <table cellspacing="10">
     <tr>
@@ -35,15 +36,19 @@
     <table>
     <tr>
         <td><label for="fName">First Name:</label></td>  
-        <td><input type="text" name="fName" id="fName"></td>
+        <td><input type="text" name="fName" id="fName" required 
+            pattern="[A-Za-z]+" >
+         
+        </td>
     </tr>
     <tr>
         <td><label for="sName">Last Name:</label></td>
-        <td><input type="text" name="sName"  id="sName"></td>
+        <td><input type="text" name="sName"  id="sName" required 
+            pattern="[A-Za-z]+" ></td>
     </tr>
     <tr>
         <td><label for="email">Email:</label></td>
-        <td><input type="text" name="email" id="email"></td>
+        <td><input type="email" name="email" id="email"></td>
     </tr>
     <tr>
         <td><label for="age">Age</label></td>
@@ -51,7 +56,10 @@
     </tr>
     <tr>
         <td><label for="pnumber">Telephone:</label></td>
-        <td><input type="pnumber" name="pnumberr" id="pnumber"></td>
+        <td><input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+            <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+            <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+        </td>
     </tr>
     <tr>
         <td>Gender:</td>
