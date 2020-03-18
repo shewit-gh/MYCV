@@ -22,7 +22,7 @@
 <!--lets do a blog-->
    <div id="content">
     <section>
-        <p class="title">Relative units</p>
+        <p class="title">Does using relative units matter?</p>
         <article>
             <p>A relative unit gets sizing from something else. In the specification the relative length units are defined as em, ex, ch and rem.These are font-relative lengths. The specification also defines a % value, which is always relative to another value.
                Using relative values means that things can scale up and down according to some other value.
@@ -31,6 +31,15 @@
                 It really does matter to use relative units if we want to create a flexible and scalable design. We can make our design fit as the size of the screen changes by easily ajusting its size relative to the root.
                 The relative units have differnet properties. As a matter of fact one can get easily confused on how to make the adjustment and the calculation even about which unit to use.
                 In this case, it is necessary to pay attention to which element the calculation refers to correspondingly, for example, to the immediately superior element, or to the visible surface of the screen (Viewport). 
+            </p>
+            <p>
+                On the other hand browsers having a zooming feature is also an easy option in which browsers take the control away from developers interms of creating their own layout.
+                Users can go to settings and change both the font size and increase/decrease the zooming of the page. But as users keep changing the font-size ang zooming, they might not
+                get the desired output if the webpage is completely dependent on the zoomign feature of the browser. The webpage can be subjected to blurred vision. So, after an argument with
+                myself and reading this amazing website; <a href="https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/">pixels vs. relative units</a>, which explains this agrument with reliable source and 
+                examples i was convinced that flexibility(relative units) being add  can create an even more comfortable reading experience when zoomed.
+
+  
             </p>
         </article>
         <p class="date"> march 18, 2020 : 8:22 PM</p>
