@@ -58,6 +58,10 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 /*Make the <a> element's that have been visited gray */
 
+
+
+
+/*style for question number 1*/
 body{
     background-color:#bdc3c7;
 }
@@ -100,3 +104,22 @@ div+div+div>p>em{
     color: white;
     font-size: 20px;
 }
+
+
+/*style for question number two*/
+
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    width: 100px;
+    height: 100px;
+  }
+  .vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
