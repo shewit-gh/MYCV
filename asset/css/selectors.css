@@ -109,6 +109,7 @@ div+div+div>p>em{
 /*style for question number two*/
 
   table {
+    margin: 5px auto;
     border-collapse: collapse;
   }
   td {
