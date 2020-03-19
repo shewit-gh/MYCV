@@ -27,6 +27,14 @@ article{
     font-size: 23px;
     font-weight: bold;
 }
+.title2{
+    font-size: 21px;
+    font-weight: bold;
+}
+.title3{
+    font-size: 19px;
+    font-weight: bold;
+}
 .date{
     text-transform: lowercase;
     font-style: italic;
