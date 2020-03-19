@@ -106,8 +106,7 @@ div+div+div>p>em{
 }
 
 
-/*style for question number two*/
-
+/*style for question number two
   table {
     margin: 5px auto;
     border-collapse: collapse;
@@ -123,4 +122,21 @@ div+div+div>p>em{
   .hori {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-  }
+  }*/
+.super{
+  width: 100px;
+  height: 200px;
+  margin: 5px auto;
+  float:left;
+  border: solid 2px;
+  margin: 50px 50px;
+
+}
+#middle,#last{
+  border: solid 1px;
+  float: left
+}
+
+}
+
+  
