@@ -1,18 +1,32 @@
-nav> ul > li{
-    display: inline-block;
-    padding: 10px 5px;
-    font-size: 20px;
-   
+.container{
+    display: -webkit-flex;
+    display: flex;
+    width: auto;
+    height: auto;
+    border-bottom: solid 1px;
 }
-nav> ul > li>a{
+.flexitem{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.container2{
+    display: -webkit-flex;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.flex{
+    
+    width: 100px;
+    
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.flex>a{
     text-decoration: none;
 }
-.heading{
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 20px;
-    border-bottom: none;
-}
+
 .big{
     width: auto;
     margin: auto;

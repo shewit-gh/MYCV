@@ -41,16 +41,22 @@ article{
     font-size: 15px;
 }
 /*changing the nature block/inline*/
-nav> ul > li{
-    display: inline-block;
-    padding: 10px 5px;
-    font-size: 20px;
-   
+.container2{
+    display: -webkit-flex;
+    display: flex;
+    width: auto;
+    height: auto;
 }
-nav> ul > li>a{
+.flex{
+    
+    width: 100px;
+    
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.flex>a{
     text-decoration: none;
 }
-
 p{
     font-size: 100%;
 }
