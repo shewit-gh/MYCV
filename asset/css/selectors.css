@@ -93,8 +93,52 @@ label{
 }
 
 /* style for question number three*/
-
-
-
+.family{
+  width: auto;
+  margin: auto;
+}
+.Ethiopia{
+  width: 140px;
+  height: 90px;
+  border: none;
+  float: left;
+}
+.one{
+  width: 140px;
+  height: 30px;
+  background: green;
+}
+.two{
+  width: 140px;
+  height: 30px;
+  background: yellow;
+}
+.three{
+  width: 140px;
+  height: 30px;
+  background: red;
+}
+.India{
+  margin-left: 20px;
+  width: 140px;
+  height: 90px;
+  border: none;
+  float: left;
+}
+.Ione{
+  width: 140px;
+  height: 30px;
+  background:red;
+}
+.Itwo{
+  width: 140px;
+  height: 30px;
+  background:white;
+}
+.Ithree{
+  width: 140px;
+  height: 30px;
+  background: green;
+}
 
   
