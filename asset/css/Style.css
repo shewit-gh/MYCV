@@ -16,15 +16,23 @@
     width: auto;
     height: auto;
 }
+@media only screen and (min-width: 780px){
+    .container2{
+        flex-direction: row;
+    }
+}
 .flex{
-    
     width: 100px;
-    
     padding: 10px 10px;
     font-size: 20px;
 }
 .flex>a{
+   background: whitesmoke;
     text-decoration: none;
+   
+}
+a:hover{
+    color:red;
 }
 
 .big{
@@ -68,4 +76,23 @@ input[type=submit]{
     margin-bottom: 5px;
     padding:10px 5px ;
     border-bottom: solid 1px;
+}
+.myworks{
+    background: whitesmoke;
+}
+.question{
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    flex-direction: column;
+}
+.Q{
+    padding-top: 10px;
+    height: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.Q>a{
+    text-decoration: none;
 }

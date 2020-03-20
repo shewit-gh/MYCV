@@ -24,13 +24,20 @@ img{
     width: auto;
     height: auto;
 }
+@media only screen and (min-width: 780px){
+    .container2{
+        flex-direction: row;
+    }
+}
 .flex{
-    
     width: 100px;
-    
     padding: 10px 10px;
     font-size: 20px;
 }
 .flex>a{
+   background: whitesmoke;
     text-decoration: none;
+   
 }
+a:hover{
+    color:red;
