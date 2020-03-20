@@ -93,52 +93,258 @@ label{
 }
 
 /* style for question number three*/
-.family{
-  width: auto;
-  margin: auto;
+.body2{
+  
+  background-color: whitesmoke;
 }
-.Ethiopia{
-  width: 140px;
-  height: 90px;
-  border: none;
+#p1{
+  background-color: whitesmoke;
+}
+section{
   float: left;
+  width: 620px;
+  height: 320px;
+  padding: 2%;
 }
-.one{
-  width: 140px;
-  height: 30px;
-  background: green;
+.red{
+  background-color: red;
+  width: 600px;
+  height: 300px;
 }
-.two{
-  width: 140px;
-  height: 30px;
-  background: yellow;
+.yellow{
+  background-color: yellow;
+  width: 600px;
+  height: 300px;
 }
-.three{
-  width: 140px;
-  height: 30px;
-  background: red;
+.blue{
+  background-color: blue;
+  width: 600px;
+  height: 300px;
 }
-.India{
-  margin-left: 20px;
-  width: 140px;
-  height: 90px;
-  border: none;
-  float: left;
+.white{
+  background-color: white;
+  width: 600px;
+  height: 300px;
 }
-.Ione{
-  width: 140px;
-  height: 30px;
-  background:red;
-}
-.Itwo{
-  width: 140px;
-  height: 30px;
-  background:white;
-}
-.Ithree{
-  width: 140px;
-  height: 30px;
-  background: green;
+.green{
+  background-color: green;
+  width: 600px;
+  height: 300px;
 }
 
+.Thailand>.white{
+  width: 600px;
+  height: 200px;
+  position: relative;
+  top: -250px;
+}
+.Thailand>.blue{
+  width: 600px;
+  height: 100px;
+  position: relative;
+  top: -400px;
+}
+.Botswana>.blue{
+  background-color: rgb(116, 185, 245);
+  width: 600px;
+  height: 300px;
+}
+.Botswana>.black{
+  background-color: black;
+  width: 600px;
+  height: 75px;
+  position: relative;
+  top: -187.5px;
+  border-top: 5px white solid;
+  border-bottom: 5px white solid;
+}
+.Benin>.yellow{
+  position: relative;
+  left: 200px;
+  width: 400px;
+  height: 150px;
+}
+.Benin>.red{
+  position: relative;
+  left: 200px;
+  width: 400px;
+  height: 150px;
+}
+.Benin>.green{
+  position: relative;
+  top: -300px;
+  width: 200px;
+  height: 300px;
+}
+.Congo>.green{
+  width: 0;
+  height: 0;
+  background-color: unset;
+  border-bottom: 300px solid transparent;
+  border-left: 400px solid green; 
+  position: relative;
+  top: -300px; 
+}
+.Congo>.red{
+  width: 0;
+  height: 0;
+  background-color: unset;
+  border-top: 300px solid transparent;
+  border-right: 400px solid red; 
+  position: relative;
+  top: -600px; 
+  left: 200px;
+}
+.Bangladesh>.red{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -250px;
+  left: 200px;
+}
+.Guyana>.yellow{
+  width: 0;
+  height: 0;
+  background-color: unset;
+  border-top: 150px solid transparent;
+  border-bottom: 150px solid transparent;
+  border-left: 600px solid yellow; 
+  position: relative;
+  top: -300px;   
+}
+.Guyana>.red{
+  width: 0;
+  height: 0;
+  background-color: unset;
+  border-top: 150px solid transparent;
+  border-bottom: 150px solid transparent;
+  border-left: 300px solid red; 
+  position: relative;
+  top: -600px;
+}
+
+.Iceland>.red-hor{
+  background-color: red;
+  width: 600px;
+  height: 50px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  position: relative;
+  top: -175px;
+}
+.Iceland>.red-ver{
+  background-color: red;
+  width: 50px;
+  height: 300px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  position: relative;
+  left: 200px;
+  top: -356px;
+}
+.Iceland>.red{
+  width: 60px;
+  height: 50px;
+  position: relative;
+  top: -528px;
+  left: 200px;
+}
+.Faroe>.red-hor{
+  background-color: red;
+  width: 600px;
+  height: 50px;
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+  position: relative;
+  top: -175px;
+}
+.Faroe>.red-ver{
+  background-color: red;
+  width: 50px;
+  height: 300px;
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+  position: relative;
+  left: 200px;
+  top: -356px;
+}
+.Faroe>.red{
+  width: 60px;
+  height: 50px;
+  position: relative;
+  top: -528px;
+  left: 200px;
+}
+
+.Finland>.blue-hor{
+  background-color: blue;
+  width: 600px;
+  height: 50px;
+  position: relative;
+  top: -175px;
+}
+.Finland>.blue-ver{
+  background-color: blue;
+  width: 50px;
+  height: 300px;
+  position: relative;
+  left: 200px;
+  top: -350px;
+}
+
+.Denmark>.white-hor{
+  background-color: white;
+  width: 600px;
+  height: 50px;
+  position: relative;
+  top: -175px;
+}
+.Denmark>.white-ver{
+  background-color: white;
+  width: 50px;
+  height: 300px;
+  position: relative;
+  left: 200px;
+  top: -350px;
+}
+.Czechia>.white{
+  width: 500px;
+  height: 0;
+  background-color: unset;
+  border-top: 150px solid white;
+  border-left: 100px solid transparent; 
+  border-right: 0px solid transparent;
+}
+.Czechia>.red{
+  width: 500px;
+  height: 0;
+  background-color: unset;
+  border-bottom: 150px solid red;
+  border-left: 100px solid transparent; 
+  border-right: 0px solid transparent;   
+}
+.Czechia>.blue{
+  width: 0;
+  height: 0;
+  background-color: unset;
+  border-top: 150px solid transparent;
+  border-bottom: 150px solid transparent;
+  border-left: 300px solid blue; 
+  position: relative;
+  top: -300px;
+}
+
+
+.Armenia>.red{
+  height: 100px;
+}
+.Armenia>.blue{
+  height: 100px;
+}
+.Armenia>.orange{
+  width: 600px;
+  height: 100px;
+  background-color: rgba(233, 173, 7, 0.918);
+}
   
